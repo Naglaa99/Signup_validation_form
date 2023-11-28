@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header >
+            Sign Up
+        </header>
+        <form action="https://www.talentlyft.com/en/resources/thank-for-registering-to-an-event-email">
+            <div class="field email-field">
+                <div class="inp-field">
+                    <input type="email" class="email" placeholder="Enter your email">
+                </div>
+                <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Please enter a valid email</p>
+                </span>
+            </div>
+            <div class="field  create-password">
+                <div class="inp-field">
+                    <input type="password" class="password" placeholder="Create password">
+                    <i class="bx bx-hide show-hide"></i>
+                </div>
+                <span class="error password-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Please enter atleast 8 charatcer with number, symbol, small and
+                        capital letter.</p>
+                </span>
+            </div>
+            <div class="field  confirm-password">
+                <div class="inp-field">
+                    <input type="password" class="cpassword" placeholder="Confirm password">
+                    <i class="bx bx-hide show-hide"></i>
+                </div>
+                <span class="error cpassword-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Password don't match</p>
+                </span>
+            </div>
+            <div class="inp-field button">
+                <input type="submit" value="Submit Now">
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
